@@ -25,3 +25,87 @@ a {
 a:hover {
   color: MediumPurple;
 }
+
+main {
+  display: flex;
+}
+
+aside {
+  flex: calc(100% / 3);
+  max-width: calc(100% / 3);
+  padding: 1rem;
+}
+article {
+  flex-grow: 1;
+  padding: 1rem; 
+}
+
+.proposal {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-left: 7px solid gold;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.proposal p {
+  margin: 0;
+}
+
+.result {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-left: 7px solid LimeGreen;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.result h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+.result p {
+  margin: 0;
+}
+
+.execution {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-left: 7px solid DodgerBlue;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+.execution h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-group label {
+  display: block;
+  line-height: 1.25;
+}
+.form-group input {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid LightGray;
+  font-size: 0.85rem;
+}
+
+.btn-primary {
+  padding: 0.25rem 0.75rem;
+  border: none;
+  background: DodgerBlue;
+  color: white;
+  font-size: 0.85rem;
+  border-radius: 0.25rem;
+  /* font-weight: 500; */
+  cursor: pointer;
+  font-family: inherit;
+}
+.btn-primary:hover {
+  background: CornflowerBlue;
+}
